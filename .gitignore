@@ -62,3 +62,6 @@ yarn.lock
 
 # Npm lock file
 npm.lock
+
+# Public folder
+public
