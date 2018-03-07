@@ -1,20 +1,22 @@
 {
-  "name": "quartzfw-example",
+  "name": "carnotite-example",
   "version": "0.0.1",
-  "description": "QuartzFW example project",
+  "description": "carnotite example project",
   "main": "private/index.ts",
-  "repository": "https://github.com/azuwey/quartzfw-example.git",
+  "repository": "https://github.com/azuwey/carnotite-example.git",
   "author": "Azuwey",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node public/index.js"
+  },
   "dependencies": {
-    "express": "^4.16.2",
-    "quartzfw": "^0.0.8",
-    "ws": "^4.1.0"
+    "carnotite": "^0.0.11",
+    "reflect-metadata": "^0.1.12"
   },
   "devDependencies": {
-    "@types/express": "^4.11.1",
-    "@types/ws": "^4.0.1",
+    "@types/node": "^9.4.6",
     "ts-node": "^5.0.0",
     "typescript": "^2.7.2"
   }

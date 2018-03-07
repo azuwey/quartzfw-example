@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# Yarn lock file
+yarn.lock
+
+# Npm lock file
+npm.lock
