@@ -1,2 +1,2 @@
-# carnotite-example
-Carnotite Example Project
+# quartzfw-example
+QuartzFW Example Project

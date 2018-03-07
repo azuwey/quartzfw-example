@@ -1,10 +1,3 @@
-import Car from './car';
-import Button from './button';
+import Server from './server';
 
-let car: Car = new Car();
-let button: Button = new Button();
-
-button.addToCar({
-	id: 664165,
-	count: 5
-});
+let server = new Server();
